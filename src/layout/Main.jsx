@@ -1,5 +1,6 @@
 import React from "react";
 import ArtObjects from "../components/ArtObjects";
+import Search from "../components/Search";
 
 //const API_KEY = process.env.API_KEY;  TODO: API_KEY is undefined
 const API_KEY = 'J1dQKgDI';
@@ -34,6 +35,7 @@ class Main extends React.Component {
   render() {
     return (
       <>
+        <Search />
         <ArtObjects collection={this.state.collection}/>
       </>
     );

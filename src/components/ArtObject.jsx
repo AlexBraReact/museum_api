@@ -1,5 +1,7 @@
+import React from "react"; 
+
 export default function ArtObject(props){    
         return <>
-       <p>art object</p>
+       <p>art object {props.id}</p>
     </>
 }

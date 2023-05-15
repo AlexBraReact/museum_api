@@ -1,3 +1,4 @@
+import React from "react"; 
 import ArtObject from "./ArtObject";
 
 export default function ArtObjects(props) {
